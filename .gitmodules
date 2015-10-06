@@ -4,3 +4,9 @@
 [submodule "bundle/ragtag"]
 	path = bundle/ragtag
 	url = git@github.com:tpope/vim-ragtag.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "bundle/sensible"]
+	path = bundle/sensible
+	url = git@github.com:tpope/vim-sensible.git
