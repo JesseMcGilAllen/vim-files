@@ -17,3 +17,11 @@ let NERDChristmasTree = 1
 
 " highlight cursor line in NERDTree
 let NERDTreeHighlightCursorline = 1
+
+" spacing and tabs
+set tabstop=2
+set smarttab
+set shiftwidth=2
+set autoindent
+set expandtab
+
