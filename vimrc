@@ -26,4 +26,20 @@ set autoindent
 set expandtab
 
 " set colorscheme
-colorscheme gotham
+colorscheme distinguished
+
+" Exit insert mode and save with jj
+imap  jj <ESC>:w<CR>
+
+"Make semicolon work as colon so you don't have to push shift 
+"for common actions
+map ; :
+"Two semicolons == semicolon
+noremap ;; ;
+
+" map j to gj and k to gk, so line navigation ignores line wrap
+nmap j gj
+nmap k gk
+
+" sets a marker at column 80
+set colorcolumn=80
