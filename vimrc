@@ -45,10 +45,10 @@ nmap k gk
 set colorcolumn=80
 
 " pane focusing
-nmap <S-Left> <C-w><Left>
-nmap <S-Right> <C-w><Right>
-nmap <S-Up> <C-w><Up>
-nmap <S-Down> <C-w><Down>
+nmap <C-l> <C-w>l
+nmap <C-h> <C-w>h
+nmap <C-k> <C-w>k
+nmap <C-j> <C-w>j
 
 " expand/shrink pane horizontally
 nmap = :resize +1<CR>
