@@ -43,3 +43,9 @@ nmap k gk
 
 " sets a marker at column 80
 set colorcolumn=80
+
+" pane focusing
+nmap <S-Left> <C-w><Left>
+nmap <S-Right> <C-w><Right>
+nmap <S-Up> <C-w><Up>
+nmap <S-Down> <C-w><Down>
