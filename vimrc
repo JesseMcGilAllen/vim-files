@@ -50,6 +50,13 @@ nmap <S-Right> <C-w><Right>
 nmap <S-Up> <C-w><Up>
 nmap <S-Down> <C-w><Down>
 
+" expand/shrink pane horizontally
+nmap = :resize +1<CR>
+nmap - :resize -1<CR>
+" expand/shrink pane vertically
+nmap ] :vertical resize +1<CR>
+nmap [ :vertical resize -1<CR>
+
 "set vim to use a central backup dir
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
