@@ -27,6 +27,7 @@ set expandtab
 
 " set colorscheme
 colorscheme distinguished
+" colorscheme vividchalk
 
 " Exit insert mode and save with jj
 imap  jj <ESC>:w<CR>
@@ -43,6 +44,7 @@ nmap k gk
 
 " sets a marker at column 80
 set colorcolumn=80
+highlight ColorColumn ctermbg=DarkGray 
 
 " pane focusing
 nmap <C-l> <C-w>l
