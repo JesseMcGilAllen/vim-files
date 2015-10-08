@@ -25,3 +25,5 @@ set shiftwidth=2
 set autoindent
 set expandtab
 
+" set colorscheme
+colorscheme gotham
