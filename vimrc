@@ -27,7 +27,6 @@ set expandtab
 
 " set colorscheme
 colorscheme distinguished
-" colorscheme vividchalk
 
 " Exit insert mode and save with jj
 imap  jj <ESC>:w<CR>
@@ -62,3 +61,12 @@ nmap [ :vertical resize -1<CR>
 "set vim to use a central backup dir
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+
+" attempt to stop using :set paste
+" use *p to paste
+set clipboard=unnamed
+
+" adding empty lines above or below current line in normal mode
+nmap <Leader>o :normal o<ESC>k
+nmap <Leader>O :normal O<ESC>j
+
