@@ -66,7 +66,3 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 " use *p to paste
 set clipboard=unnamed
 
-" adding empty lines above or below current line in normal mode
-nmap <Leader>o :normal o<ESC>k
-nmap <Leader>O :normal O<ESC>j
-
