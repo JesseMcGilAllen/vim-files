@@ -25,6 +25,8 @@ set shiftwidth=2
 set autoindent
 set expandtab
 
+" PHP specific spacing
+au FileType php set tabstop=4 | set shiftwidth=4
 " set colorscheme
 colorscheme distinguished
 
@@ -66,3 +68,5 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 " use *p to paste
 set clipboard=unnamed
 
+" tells syntastic to ignore angular directives
+let g:syntastic_html_tidy_ignore_errors=['proprietary attribute "ng-']
