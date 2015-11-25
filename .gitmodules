@@ -61,3 +61,9 @@
 [submodule "bundle\\classpath"]
 	path = bundle\\classpath
 	url = git://github.com/tpope/vim-classpath.git
+[submodule "vim-clojure-static"]
+	path = vim-clojure-static
+	url = git://github.com/guns/vim-clojure-static.git
+[submodule "bundle\\clojure-static"]
+	path = bundle\\clojure-static
+	url = git://github.com/guns/vim-clojure-static.git
