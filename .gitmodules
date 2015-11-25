@@ -58,3 +58,6 @@
 [submodule "bundle/coffeescript"]
 	path = bundle/coffeescript
 	url = git@github.com:kchmck/vim-coffee-script.git
+[submodule "bundle\\classpath"]
+	path = bundle\\classpath
+	url = git://github.com/tpope/vim-classpath.git
