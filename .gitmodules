@@ -55,3 +55,6 @@
 [submodule "bundle\\paredit"]
 	path = bundle\\paredit
 	url = https://github.com/vim-scripts/paredit.vim.git
+[submodule "bundle/coffeescript"]
+	path = bundle/coffeescript
+	url = git@github.com:kchmck/vim-coffee-script.git
