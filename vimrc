@@ -25,8 +25,11 @@ set shiftwidth=2
 set autoindent
 set expandtab
 
-" PHP specific spacing
+" spacing for languages that call for 4 characters indentation
 au FileType php set tabstop=4 | set shiftwidth=4
+au FileType java set tabstop=4 | set shiftwidth=4
+au FileType md set tabstop=4 | set shiftwidth=4
+
 " set colorscheme
 colorscheme distinguished
 
