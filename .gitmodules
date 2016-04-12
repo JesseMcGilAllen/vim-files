@@ -49,6 +49,21 @@
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
 	url = git@github.com:mileszs/ack.vim.git
+[submodule "bundle/fireplace"]
+	path = bundle/fireplace
+	url = git://github.com/tpope/vim-fireplace.git
+[submodule "bundle\\paredit"]
+	path = bundle\\paredit
+	url = https://github.com/vim-scripts/paredit.vim.git
 [submodule "bundle/coffeescript"]
 	path = bundle/coffeescript
 	url = git@github.com:kchmck/vim-coffee-script.git
+[submodule "bundle\\classpath"]
+	path = bundle\\classpath
+	url = git://github.com/tpope/vim-classpath.git
+[submodule "vim-clojure-static"]
+	path = vim-clojure-static
+	url = git://github.com/guns/vim-clojure-static.git
+[submodule "bundle\\clojure-static"]
+	path = bundle\\clojure-static
+	url = git://github.com/guns/vim-clojure-static.git
